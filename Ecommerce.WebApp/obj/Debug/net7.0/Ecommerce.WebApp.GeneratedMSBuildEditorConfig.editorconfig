@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\USER\Downloads\SampleEcommerceApp_.2023-7-8\SampleEcommerceApp\Ecommerce.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Customer/CreateCustomer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlQ3VzdG9tZXIuY3NodG1s
+[C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Customer/DetailsView.cshtml]
