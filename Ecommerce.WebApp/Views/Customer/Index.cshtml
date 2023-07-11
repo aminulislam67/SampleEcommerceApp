@@ -1,0 +1,66 @@
+﻿@using Ecommerce.WebApp.Models.CustomerList;
+
+@model CustomerListViewModel
+
+@{
+    int slNo = 0;
+}
+
+<h4>Customer List</h4>
+
+<a asp-action="Create" class="btn btn-primary">Add New </a>
+
+<div>
+    <form method="get">
+
+        <div class="form-group">
+            <label asp-for="CustomerSearchCriteria.SearchText">Search Text</label>
+            <input type="text" class="form-control" asp-for="CustomerSearchCriteria.SearchText" placeholder="Name">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CustomerSearchCriteria.Name">Name</label>
+            <input type="text" class="form-control" asp-for="CustomerSearchCriteria.Name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label asp-for="CustomerSearchCriteria.Email">Email</label>
+            <input type="text" class="form-control" asp-for="CustomerSearchCriteria.Email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label asp-for="CustomerSearchCriteria.Phone">Phone</label>
+            <input type="text" class="form-control" asp-for="CustomerSearchCriteria.Phone" placeholder="Phone">
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Search" />
+        </div>
+
+    </form>
+</div>
+
+<div>
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var customer in Model.CustomerList)
+            {
+                <tr>
+                    <td>@(++slNo)</td>
+                    <td>@customer.Name</td>
+                    <td>@customer.Email</td>
+                    <td>@customer.Phone</td>
+                    <td>View |<a asp-action="Edit" asp-route-id="@customer.Id">Edit</a>  | Remove </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
