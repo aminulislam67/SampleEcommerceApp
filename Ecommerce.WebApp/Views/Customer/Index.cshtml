@@ -57,7 +57,12 @@
                     <td>@customer.Name</td>
                     <td>@customer.Email</td>
                     <td>@customer.Phone</td>
-                    <td>View |<a asp-action="Edit" asp-route-id="@customer.Id">Edit</a>  | Remove </td>
+
+                    <td>
+                        <a asp-action="DetailsView" asp-route-id="@customer.Id">View</a> |
+                        <a asp-action="Edit" asp-route-id="@customer.Id">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@customer.Id">Delete</a>
+                    </td>
                 </tr>
             }
         </tbody>

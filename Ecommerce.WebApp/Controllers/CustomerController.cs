@@ -15,7 +15,27 @@ namespace Ecommerce.WebApp.Controllers
         {
             _customerRepository = new CustomerRepository();
         }
-       
+        public IActionResult DetailsView(int id)
+        {
+            // Retrieve the customer by id
+            var customer = _customerRepository.GetById(id);
+
+            if (customer == null)
+            {
+                return NotFound();
+            }
+
+            // Map the customer to the CustomerEdit model
+            var model = new CustomerInfoDetails()
+            {
+                Id = customer.Id,
+                Name = customer.Name,
+                Phone = customer.Phone,
+                Email = customer.Email
+            };
+
+            return View(model);
+        }
 
         public IActionResult Index(CustomerSearchCriteria customerSearchCriteria)
         {
@@ -65,6 +85,27 @@ namespace Ecommerce.WebApp.Controllers
             
             return View();
           
+        }
+
+        public IActionResult Delete(int id)
+        {
+            // Retrieve the customer by id
+            var customer = _customerRepository.GetById(id);
+
+            if (customer == null)
+            {
+                return NotFound();
+            }
+
+            // Database operations 
+            bool isSuccess = _customerRepository.Delete(customer);
+
+            if (isSuccess)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View();
         }
 
         public IActionResult Edit(int? id)
