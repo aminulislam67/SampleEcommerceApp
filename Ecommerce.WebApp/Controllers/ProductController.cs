@@ -1,6 +1,8 @@
 ﻿using Ecommerce.Models.EntityModels;
+using Ecommerce.Models.UtilityModels;
 using Ecommerce.Repositories;
 using Ecommerce.WebApp.Models;
+using Ecommerce.WebApp.Models.CustomerList;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.WebApp.Controllers
@@ -14,6 +16,12 @@ namespace Ecommerce.WebApp.Controllers
             _ProductRepository = new ProductRepository();
         }
 
+        public IActionResult Index()
+        {
+            var products = _ProductRepository.GetAll();
+
+            return View(products);
+        }
 
         [HttpGet]
         public IActionResult createproduct()
@@ -40,7 +48,7 @@ namespace Ecommerce.WebApp.Controllers
 
                 if (isSuccess)
                 {
-                    return View();
+                    return RedirectToAction("Index");
                 }
 
             }
@@ -85,7 +93,7 @@ namespace Ecommerce.WebApp.Controllers
 
             if (isSuccess)
             {
-                return RedirectToAction("Show");
+                return RedirectToAction("Index");
             }
             return View();
         }
@@ -105,7 +113,8 @@ namespace Ecommerce.WebApp.Controllers
                 Id = product.Id,
                 Name = product.Name,
                 Price = product.Price,
-                Description = product.Description
+                Description = product.Description,
+                Category=product.Category,
             };
 
             return View(model);
@@ -126,15 +135,17 @@ namespace Ecommerce.WebApp.Controllers
 
                 // Update the properties of the existing product
                 existingProduct.Name = model.Name;
-                existingProduct.Price = model.Price;
                 existingProduct.Description = model.Description;
+                existingProduct.Price = model.Price;
+                existingProduct.Category = model.Category;
+
 
                 // Database operations 
                 bool isSuccess = _ProductRepository.Update(existingProduct);
 
                 if (isSuccess)
                 {
-                    return RedirectToAction("Show");
+                    return RedirectToAction("Index");
                 }
             }
 
