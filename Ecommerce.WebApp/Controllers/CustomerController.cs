@@ -56,13 +56,13 @@ namespace Ecommerce.WebApp.Controllers
         }
 
        
-        public IActionResult Create()
+        public IActionResult CreateCustomer()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Create(CustomerCreate model)
+        public IActionResult CreateCustomer(CustomerCreate model)
         {
 
             if (ModelState.IsValid)

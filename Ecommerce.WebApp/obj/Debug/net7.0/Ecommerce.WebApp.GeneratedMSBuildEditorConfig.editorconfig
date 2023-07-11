@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\USER\Downloads\SampleEcommerceApp_.2023-7-8\SampleEcommerceApp\Ecommerce.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Customer/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Customer/CreateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlQ3VzdG9tZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Customer/DetailsView.cshtml]
@@ -42,6 +42,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Product/createproduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxjcmVhdGVwcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Product/DetailsView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/USER/Downloads/SampleEcommerceApp_.2023-7-8/SampleEcommerceApp/Ecommerce.WebApp/Views/Shared/Error.cshtml]
