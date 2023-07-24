@@ -22,3 +22,15 @@ C:\Users\USER\Downloads\SampleEcommerceApp_.2023-7-8\SampleEcommerceApp\Ecommerc
 C:\Users\USER\Downloads\SampleEcommerceApp_.2023-7-8\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\refint\Ecommerce.Models.dll
 C:\Users\USER\Downloads\SampleEcommerceApp_.2023-7-8\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.pdb
 C:\Users\USER\Downloads\SampleEcommerceApp_.2023-7-8\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\ref\Ecommerce.Models.dll
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.deps.json
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.dll
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.pdb
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.AssemblyReference.cache
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.AssemblyInfoInputs.cache
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.AssemblyInfo.cs
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.CoreCompileInputs.cache
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.dll
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\refint\Ecommerce.Models.dll
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.pdb
+C:\Users\aminul.it\Documents\GitHub\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\ref\Ecommerce.Models.dll

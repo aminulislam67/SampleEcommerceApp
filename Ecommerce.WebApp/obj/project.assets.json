@@ -11353,19 +11353,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aminul Islam\\.nuget\\packages\\": {}
+    "C:\\Users\\aminul.it\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.WebApp\\Ecommerce.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.WebApp\\Ecommerce.WebApp.csproj",
       "projectName": "Ecommerce.WebApp",
-      "projectPath": "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.WebApp\\Ecommerce.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Aminul Islam\\.nuget\\packages\\",
-      "outputPath": "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.WebApp\\Ecommerce.WebApp.csproj",
+      "packagesPath": "C:\\Users\\aminul.it\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.WebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aminul Islam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aminul.it\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11373,21 +11377,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj": {
-              "projectPath": "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj"
+            "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj": {
+              "projectPath": "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj"
             },
-            "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-              "projectPath": "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj"
+            "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+              "projectPath": "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj"
             },
-            "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
-              "projectPath": "E:\\Web developer\\github_desktop\\Github_desktop\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj"
+            "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
+              "projectPath": "C:\\Users\\aminul.it\\Documents\\GitHub\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj"
             }
           }
         }
@@ -11432,7 +11436,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
